@@ -12,3 +12,4 @@ easyocr
 labelImg
 torch
 torchvision
+tqdm
