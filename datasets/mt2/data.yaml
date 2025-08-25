@@ -1,0 +1,4 @@
+path: datasets/mt2
+train: images/train
+val: images/val
+names: [metin, boss, potwory]

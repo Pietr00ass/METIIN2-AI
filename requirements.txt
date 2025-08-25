@@ -1,0 +1,14 @@
+PySide6
+ultralytics
+pygetwindow
+pywin32
+pyautogui
+mss
+opencv-python
+numpy
+pynput
+PyYAML
+easyocr
+labelImg
+torch
+torchvision
