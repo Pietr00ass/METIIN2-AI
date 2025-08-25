@@ -35,7 +35,7 @@ def extract_frames(rec_dir: str = REC_DIR, out_dir: str = OUT_DIR, step: int = S
                 saved += 1
             i += 1
         cap.release()
-        logging.info(f" zapisano {saved} klatek")
+        logging.info(f"Zapisano {saved} klatek")
 
 
 def main() -> None:
