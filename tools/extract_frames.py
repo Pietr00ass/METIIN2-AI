@@ -5,13 +5,11 @@ import glob
 import logging
 import os
 from pathlib import Path
-
 import cv2
 
 REC_DIR = "data/recordings"
 OUT_DIR = "datasets/mt2/images/train"
 STEP = 15  # co ile klatek zapisać (przy 15 FPS → 1 kl/s)
-
 
 def extract_frames(rec_dir: str = REC_DIR, out_dir: str = OUT_DIR, step: int = STEP) -> None:
     Path(out_dir).mkdir(parents=True, exist_ok=True)
